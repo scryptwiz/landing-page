@@ -9,7 +9,6 @@ import Autoplay from "embla-carousel-autoplay";
 import { fadeInUp, slideInLeft, slideInRight } from "@/constants/animations/variants";
 import {useInView} from "react-intersection-observer";
 
-// Split logos into three sections
 const section1 = logos.slice(0, 4);
 const section2 = logos.slice(4, 8);
 const section3 = logos.slice(8, 12);
@@ -21,7 +20,6 @@ const LogoSection = () => {
         React.useRef(Autoplay({ delay: 1000, stopOnInteraction: false })).current
     ];
 
-    // Create a ref to track the section
     const {ref, inView} = useInView({
         triggerOnce: true,
         threshold: 0.2,

@@ -21,7 +21,7 @@ const Section1 = () => {
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
             variants={containerVariants}
-            className="left-container-spacing mb-5 mx-auto overflow-hidden max-w-screen-2xl"
+            className="left-container-spacing mb-5 mx-auto overflow-hidden max-w-screen-2xl bg-white"
         >
             <div className="flex-col flex shadow-custom">
                 <div className="flex flex-col md:flex-row justify-between pt-10 px-6 md:px-10 relative">
@@ -48,7 +48,6 @@ const Section1 = () => {
                         </motion.div>
                     </motion.div>
 
-                    {/* Right Image (Full Height of Left Content, 80-90% Width) */}
                     <motion.div variants={slideInRight} className="hidden md:flex w-full md:w-1/2 justify-end items-center relative">
                         <div className="w-[90%] 2xl:w-[60%] min-h-[800px] h-full relative">
                             <Image src={IMAGES.SECTION1_IMAGE} alt="Motorcycles" fill className="object-cover" />

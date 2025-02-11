@@ -13,8 +13,8 @@ const Section4 = () => {
     });
 
     return (
-        <section ref={ref} className="w-full py-16">
-            <div className="max-w-screen-2xl mx-auto px-6">
+        <section ref={ref} className="w-full py-16 relative section4 overflow-hidden">
+            <div className="max-w-screen-2xl mx-auto px-6 z-10 relative">
                 <motion.h3
                     initial="hidden"
                     animate={inView ? "visible" : "hidden"}

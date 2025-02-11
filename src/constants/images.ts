@@ -6,8 +6,8 @@ const IMAGES = {
     SECTION5_IMAGE: "/images/section_5.png",
     SECTION6_IMAGE: "/images/section6_img.png",
     LOGOS: {
-        APPLE_STORE: "/logos/apple_store.png",
-        GOOGLE_PLAY: "/logos/google_play.png",
+        APPLE_STORE: "/logo/apple_store.png",
+        GOOGLE_PLAY: "/logo/google_play.png",
     }
 }
 

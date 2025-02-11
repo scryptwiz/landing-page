@@ -7,19 +7,25 @@ import Section4 from "@/components/sections/section4";
 import Section5 from "@/components/sections/section5";
 import RequestQuoteForm from "@/components/sections/req-quote-section";
 import AppPromoSection from "@/components/sections/promo-section6";
+import Footer from "@/components/sections/footer";
+import Navbar from "@/components/sections/navbar";
 
 const HomePage = () => {
     return (
         <div>
+            <Navbar/>
             <HeroSection/>
-            <Section1/>
-            <Section2/>
+            <div className="bg_main_section">
+                <Section1/>
+                <Section2/>
+            </div>
             <Section3/>
             <LogoSection/>
             <Section4/>
             <Section5/>
             <RequestQuoteForm/>
             <AppPromoSection/>
+            <Footer/>
         </div>
     );
 }

@@ -68,5 +68,15 @@ body {
 }
 
 .shadow-custom {
-    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.1); /* Left & Bottom Shadow */
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.bg_main_section {
+    width: 100%;
+    background: url("/images/line_5.svg") center/cover no-repeat;
+}
+
+.section4 {
+    width: 100%;
+    background: url("/images/line_7.svg") center/cover no-repeat;
 }

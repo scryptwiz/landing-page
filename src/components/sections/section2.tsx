@@ -24,7 +24,7 @@ const Section2 = () => {
             className="left-container-spacing mt-20 mb-5 mx-auto overflow-hidden max-w-screen-2xl"
         >
             <div className="flex-col flex">
-                <div className="flex flex-col md:flex-row justify-between pt-10  relative">
+                <div className="flex flex-col md:flex-row justify-between pt-10 pl-10 bg-white relative">
                     {/* Left Content */}
                     <motion.div variants={slideInLeft}
                                 className="w-full md:w-1/2 2xl:w-1/3 space-y-6 bg-white rounded-lg flex flex-col justify-center">
@@ -40,7 +40,6 @@ const Section2 = () => {
                             vitae faucibus.
                         </motion.p>
 
-                        {/* List Items (Without Images) */}
                         <motion.div variants={fadeInUp} className="space-y-10">
                             {section2Items.map((item, index) => (
                                 <motion.div key={index} variants={fadeInUp} className="flex gap-2">
