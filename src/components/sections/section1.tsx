@@ -21,7 +21,7 @@ const Section1 = () => {
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
             variants={containerVariants}
-            className="left-container-spacing mb-5 mx-auto overflow-hidden"
+            className="left-container-spacing mb-5 mx-auto overflow-hidden max-w-screen-2xl"
         >
             <div className="flex-col flex shadow-custom">
                 <div className="flex flex-col md:flex-row justify-between pt-10 px-6 md:px-10 relative">

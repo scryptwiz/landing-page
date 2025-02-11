@@ -14,7 +14,7 @@ export default function HeroSection() {
     return (
         <section
             ref={ref}
-            className="relative flex flex-row items-center justify-between min-h-dvh mx-auto w-full hero-section overflow-hidden container-spacing"
+            className="max-w-screen-2xl flex flex-row items-center justify-between min-h-dvh mx-auto w-full hero-section overflow-hidden container-spacing"
         >
             {/* Left Content */}
             <motion.div
