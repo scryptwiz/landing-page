@@ -18,8 +18,8 @@ const NAV_ITEMS = [
         href: "#",
         dropdown: true,
         items: [
-            { label: "Option 1", href: "/option1" },
-            { label: "Option 2", href: "/option2" },
+            { label: "Option 1", href: "/?query='option1'" },
+            { label: "Option 2", href: "/?query='option2'" },
         ],
     },
     {
@@ -27,8 +27,8 @@ const NAV_ITEMS = [
         href: "#",
         dropdown: true,
         items: [
-            { label: "Feature A", href: "/featureA" },
-            { label: "Feature B", href: "/featureB" },
+            { label: "Feature A", href: "/?query='option2'" },
+            { label: "Feature B", href: "/?query='option2'" },
         ],
     },
     {
@@ -36,8 +36,8 @@ const NAV_ITEMS = [
         href: "#",
         dropdown: true,
         items: [
-            { label: "Service X", href: "/serviceX" },
-            { label: "Service Y", href: "/serviceY" },
+            { label: "Service X", href: "/?query='option2'" },
+            { label: "Service Y", href: "/?query='option2'" },
         ],
     },
 ];
