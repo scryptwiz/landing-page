@@ -67,7 +67,7 @@ export default function Navbar() {
                 {/* Logo */}
                 <Link href="/">
                     <motion.div
-                        className="bg-gray-300 text-black px-4 py-2 font-bold text-lg cursor-pointer"
+                        className="bg-gray-300 text-s1 px-4 py-2 font-bold text-lg cursor-pointer"
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.4 }}
@@ -86,7 +86,7 @@ export default function Navbar() {
                                     <ChevronDown size={16} />
                                 </span>
                             </DropdownMenuTrigger>
-                            <DropdownMenuContent align="start" className="bg-white text-black w-48">
+                            <DropdownMenuContent align="start" className="bg-white text-s1 w-48">
                                 {item.items.map((dropdownItem, subIndex) => (
                                     <DropdownMenuItem key={subIndex} asChild>
                                         <Link href={dropdownItem.href}>{dropdownItem.label}</Link>
@@ -98,7 +98,7 @@ export default function Navbar() {
                 </div>
 
                 {/* Sign In Button */}
-                <Button className="hidden md:block bg-white hover:bg-p1 hover:text-white text-black shadow-lg">
+                <Button className="hidden md:block bg-white hover:bg-p1 hover:text-white text-s1 shadow-lg">
                     Sign In
                 </Button>
 
@@ -107,7 +107,7 @@ export default function Navbar() {
                     onClick={() => setMenuOpen(!menuOpen)}
                     className="md:hidden text-white focus:outline-none"
                 >
-                    <Menu size={28} />
+                    <Menu size={28} className="text-s1" />
                 </button>
             </div>
 
@@ -123,7 +123,7 @@ export default function Navbar() {
                             <DropdownMenuTrigger asChild>
                                 <span className="text-p1 block cursor-pointer">{item.label}</span>
                             </DropdownMenuTrigger>
-                            <DropdownMenuContent align="center" className="bg-white text-black w-40">
+                            <DropdownMenuContent align="center" className="bg-white text-s1 w-40">
                                 {item.items.map((dropdownItem, subIndex) => (
                                     <DropdownMenuItem key={subIndex} asChild>
                                         <Link href={dropdownItem.href}>{dropdownItem.label}</Link>
@@ -132,7 +132,7 @@ export default function Navbar() {
                             </DropdownMenuContent>
                         </DropdownMenu>
                     ))}
-                    <Button className="w-full bg-white text-black shadow-lg">Sign In</Button>
+                    <Button className="w-full bg-white hover:text-white hover:bg-p1 text-s1 shadow-lg">Sign In</Button>
                 </motion.div>
             )}
         </motion.nav>
