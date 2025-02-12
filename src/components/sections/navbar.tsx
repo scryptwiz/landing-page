@@ -11,6 +11,7 @@ import {
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import Logo from "@/components/sub-comp/logo";
 
 const NAV_ITEMS = [
     {
@@ -66,14 +67,7 @@ export default function Navbar() {
             <div className="max-w-screen-2xl mx-auto flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/">
-                    <motion.div
-                        className="bg-gray-300 text-s1 px-4 py-2 font-bold text-lg cursor-pointer"
-                        initial={{ opacity: 0, y: -10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.4 }}
-                    >
-                        LOGO
-                    </motion.div>
+                    <Logo/>
                 </Link>
 
                 {/* Desktop Menu */}

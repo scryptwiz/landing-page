@@ -41,7 +41,7 @@ const Section5 = () => {
                 LOGO
             </motion.div>
 
-            {/* Content (Centered) */}
+            {/* Content */}
             <motion.div
                 className="relative z-10 px-6 md:px-12 lg:px-24 max-w-screen-2xl w-full text-center"
                 variants={scaleFadeIn}

@@ -9,8 +9,6 @@ export default function Section7() {
     return (
         <section className="relative bg-p1/20 pt-16 px-4 sm:px-6 lg:px-12 overflow-hidden h-[400px] md:h-[860px]">
             <div className="relative max-w-screen-2xl mx-auto flex flex-col h-full md:flex-row gap-12">
-
-                {/* Background Image - Spans max-width but adjusts height to content */}
                 <Image
                     src={IMAGES.GROUPED_BIKE}
                     alt="Background Bike Images"

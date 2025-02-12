@@ -83,7 +83,7 @@ export default function HeroSection() {
                 </motion.div>
             </motion.div>
 
-            {/* Right Full-Height Image with Clip-Path */}
+            {/* Right Content */}
             <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}

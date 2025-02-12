@@ -1,38 +1,38 @@
 export const faq = [
     {
         id: '0',
-        question: 'How easy is it to setup Xora?',
+        question: 'Lorem ipsum dolor sit amet consectetur?',
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            'Lorem ipsum dolor sit amet consectetur. Vulputate amet aliquet morbi suspendisse convallis. Urna a urna lectus donec felis risus duis pellentesque. Pellentesque ultricies ipsum.',
     },
     {
         id: '1',
-        question: 'Can I integrate Xora with other platforms?',
+        question: 'Lorem ipsum dolor sit amet consectetur?',
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            'Lorem ipsum dolor sit amet consectetur. Vulputate amet aliquet morbi suspendisse convallis. Urna a urna lectus donec felis risus duis pellentesque. Pellentesque ultricies ipsum.',
     },
     {
         id: '2',
-        question: 'How often do you add new content?',
+        question: 'Lorem ipsum dolor sit amet consectetur?',
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            'Lorem ipsum dolor sit amet consectetur. Vulputate amet aliquet morbi suspendisse convallis. Urna a urna lectus donec felis risus duis pellentesque. Pellentesque ultricies ipsum.',
     },
     {
         id: '3',
-        question: 'What your refund policy?',
+        question: 'Lorem ipsum dolor sit amet consectetur?',
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            'Lorem ipsum dolor sit amet consectetur. Vulputate amet aliquet morbi suspendisse convallis. Urna a urna lectus donec felis risus duis pellentesque. Pellentesque ultricies ipsum.',
     },
     {
         id: '4',
-        question: 'Do you have corporate plans?',
+        question: 'Lorem ipsum dolor sit amet consectetur?',
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            'Lorem ipsum dolor sit amet consectetur. Vulputate amet aliquet morbi suspendisse convallis. Urna a urna lectus donec felis risus duis pellentesque. Pellentesque ultricies ipsum.',
     },
     {
         id: '5',
-        question: 'What happens when I’m out of storage?',
+        question: 'Lorem ipsum dolor sit amet consectetur?',
         answer:
-            'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+            'Lorem ipsum dolor sit amet consectetur. Vulputate amet aliquet morbi suspendisse convallis. Urna a urna lectus donec felis risus duis pellentesque. Pellentesque ultricies ipsum.',
     },
 ];

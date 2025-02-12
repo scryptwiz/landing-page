@@ -57,7 +57,7 @@ const Section1 = () => {
 
                 {/* Buttons & Contact */}
                 <motion.div variants={fadeInUp}>
-                    <div className="px-6 md:px-10 flex md:flex-row items-center gap-5 my-5">
+                    <div className="px-6 md:px-10 flex flex-col md:flex-row items-center gap-5 my-5">
                         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                             <Button variant="default" className="bg-p1 hover:bg-p1/90 h-10 text-white px-4 py-2 rounded-md font-semibold tracking-wider flex items-center gap-2">
                                 Lorem Ipsum <MoveRight />

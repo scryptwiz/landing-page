@@ -1,9 +1,10 @@
 "use client";
 
 import { FOOTER_DATA } from "@/constants/section/footer-data";
-import { slideInLeft, fadeInUp } from "@/constants/animations/variants";
+import { fadeInUp } from "@/constants/animations/variants";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Logo from "@/components/sub-comp/logo";
 
 const Footer = () => {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
@@ -13,14 +14,7 @@ const Footer = () => {
             <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row md:justify-between gap-10">
                 {/* Logo Section */}
                 <div className="flex justify-center md:justify-start">
-                    <motion.div
-                        className="bg-gray-200 h-fit text-black px-4 md:px-12 py-2 md:py-3 font-bold text-sm md:text-lg z-20"
-                        variants={slideInLeft}
-                        initial="hidden"
-                        animate={inView ? "visible" : "hidden"}
-                    >
-                        LOGO
-                    </motion.div>
+                    <Logo className="bg-s2 h-fit"/>
                 </div>
 
                 {/* Footer Links */}

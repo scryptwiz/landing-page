@@ -27,7 +27,7 @@ const Section2 = () => {
                 <div className="flex flex-col md:flex-row justify-between pt-10 pl-10 bg-white relative">
                     {/* Left Content */}
                     <motion.div variants={slideInLeft}
-                                className="w-full md:w-1/2 2xl:w-1/3 space-y-6 bg-white rounded-lg flex flex-col justify-center">
+                                className="w-full md:w-1/2 2xl:w-1/3 space-y-6 bg-white rounded-lg flex flex-col justify-center pr-6 md:pr-0">
                         <motion.h3 variants={fadeInUp} className="text-subheadingSm font-heading text-p2">
                             Lorem ipsum dolor sit amet
                         </motion.h3>

@@ -11,6 +11,11 @@ import Footer from "@/components/sections/footer";
 import Navbar from "@/components/sections/navbar";
 import Section7 from "@/components/sections/section7";
 import Faq from "@/components/sections/faq";
+import Section8 from "@/components/sections/section8";
+import FeatureSection from "@/components/sections/feature-section";
+import OnRoadSection from "@/components/sections/on-road-section";
+import LandingCarouselSection from "@/components/sections/landing-carousel-section";
+import TestimonialsSection from "@/components/sections/testimonials-section";
 
 const HomePage = () => {
     return (
@@ -27,8 +32,15 @@ const HomePage = () => {
             <Section5/>
             <RequestQuoteForm/>
             <AppPromoSection/>
-            <Section7/>
+            <div className="bg_main_section2 py-40">
+                <Section7/>
+                <OnRoadSection/>
+            </div>
+            <TestimonialsSection/>
+            <FeatureSection/>
+            <LandingCarouselSection/>
             <Faq/>
+            <Section8/>
             <Footer/>
         </div>
     );

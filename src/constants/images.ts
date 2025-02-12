@@ -6,6 +6,8 @@ const IMAGES = {
     SECTION5_IMAGE: "/images/section_5.png",
     SECTION6_IMAGE: "/images/section6_img.png",
     GROUPED_BIKE: "/images/grouped_bike.png",
+    HANDSHAKE: "/images/handshake.png",
+    ON_BIKE_TOGETHER: "/images/on_bike_together.png",
     LOGOS: {
         APPLE_STORE: "/logo/apple_store.png",
         GOOGLE_PLAY: "/logo/google_play.png",

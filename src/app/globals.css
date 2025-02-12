@@ -77,7 +77,19 @@ body {
     background: url("/images/line_5.svg") center/cover no-repeat;
 }
 
+.bg_main_section2 {
+    width: 100%;
+    background: url("/images/line_6.svg") center/cover no-repeat;
+}
+
 .section4 {
     width: 100%;
     background: url("/images/line_7.svg") center/cover no-repeat;
+}
+
+.bg-stars-pattern {
+    background-image: url("/images/stars.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px auto;
 }

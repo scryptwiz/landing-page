@@ -41,7 +41,7 @@ const LogoSection = () => {
                     LOREM IPSUM DOLOR SIT AMET <br/> CONSECTETUR. COMMODO LEO AMET.
                 </motion.h2>
 
-                {/* Mobile - Three Separate Carousels */}
+                {/* Mobile */}
                 <div className="block md:hidden mt-8 space-y-6">
                     {[section1, section2, section3].map((section, index) => (
                         <Carousel
@@ -70,7 +70,7 @@ const LogoSection = () => {
                     ))}
                 </div>
 
-                {/* Desktop - Three Rows with Auto-Sizing Images */}
+                {/* Desktop */}
                 <div className="hidden md:flex flex-col gap-8 mt-8">
                     {[section1, section2, section3].map((section, index) => (
                         <motion.div

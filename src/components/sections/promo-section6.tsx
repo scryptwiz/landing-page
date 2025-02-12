@@ -10,7 +10,6 @@ export default function AppPromoSection() {
     return (
         <section ref={ref} className="px-6 lg:px-20 py-12 bg-s2">
             <div className="max-w-screen-2xl flex flex-col-reverse lg:flex-row items-center justify-between mx-auto">
-                {/* Left Section - Text Content */}
                 <motion.div
                     className="lg:w-1/2 text-center lg:text-left space-y-4"
                     initial={{ opacity: 0, x: -50 }}
@@ -62,7 +61,7 @@ export default function AppPromoSection() {
                     </motion.div>
                 </motion.div>
 
-                {/* Right Section - Optimized Image */}
+                {/* Right Section */}
                 <motion.div
                     className="lg:w-1/2 flex justify-center"
                     initial={{ opacity: 0, x: 50 }}
