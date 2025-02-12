@@ -29,7 +29,7 @@ export default function AppPromoSection() {
 
                     {/* Store Buttons */}
                     <motion.div
-                        className="flex flex-col sm:flex-row items-center gap-4 mt-6"
+                        className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mt-6"
                         initial="hidden"
                         animate={inView ? "visible" : "hidden"}
                         variants={{

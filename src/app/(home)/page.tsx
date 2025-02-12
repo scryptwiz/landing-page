@@ -10,6 +10,7 @@ import AppPromoSection from "@/components/sections/promo-section6";
 import Footer from "@/components/sections/footer";
 import Navbar from "@/components/sections/navbar";
 import Section7 from "@/components/sections/section7";
+import Faq from "@/components/sections/faq";
 
 const HomePage = () => {
     return (
@@ -27,6 +28,7 @@ const HomePage = () => {
             <RequestQuoteForm/>
             <AppPromoSection/>
             <Section7/>
+            <Faq/>
             <Footer/>
         </div>
     );
